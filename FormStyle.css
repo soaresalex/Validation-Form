@@ -1,0 +1,91 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    background: #007DC1;
+    background: -webkit-linear-gradient(#007DC1, #9400D3);
+    background: -o-linear-gradient(#007DC1, #9400D3);
+    background: -moz-linear-gradient(#007DC1, #9400D3);
+    background: linear-gradient(#007DC1, #9400D3);
+    height: 100vh;
+}
+
+#ddlDepartment {
+    width: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #BCBEC0;
+    border-radius: 25px;
+}
+
+form {
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 5px 5px 15px #3b444c;
+    width: 40%;
+    padding: 20px;
+    color: #007DC1;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#displayForm span {
+    border: 0;
+    font-size: 12px;
+    color: #999;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+h1 {
+    color: #FFF;
+    font-weight: 100;
+    font-size: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+::placeholder {
+    color: #B8B8B9;
+}
+
+span {
+    color: red;
+}
+
+#txtFirstName, #txtLastName, #txtSalary, #txtInterviewDate {
+    border: 0;
+    padding: 5px 10px;
+    width: 85%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #BCBEC0;
+    font-size: 12px;
+}
+
+#txtInterviewDate {
+    margin-top: 20px;
+}
+
+#btnSubmit {
+    width: 100%;
+    border: 0;
+    padding: 15px 0;
+    background: #FFA500;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#ValidationSummary {
+    color: red;
+    text-transform: initial;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#validationform span {
+    color: red;
+}
